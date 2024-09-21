@@ -3,12 +3,13 @@
   width: 250px;
   border: 1px solid black;
   margin-top: 30px;
+  box-shadow: rgba(48, 48, 212, 0.831) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 #list{
   background-color: white;
-  width: 247px;
+  width: 248px;
   margin-top: 2px;
-  margin-left: 122px;
+  margin-left: 422px;
   max-height: 100px ;
   overflow-y: auto;
 }
@@ -61,27 +62,18 @@ h2{
   font-size: 24px;
 }
 
-@media(max-width:460px){
+@media(max-width:860px){
   #inputid{
     height: 30px;
     width: 200px;
   }
   #list{
-    width: 200px;
-    margin-left: 64px;
+    width: 198px;
+    margin-left: 65px;
   }
   #inputid{
     height: 40px;
   }
-  li{
-    cursor: pointer;
-    list-style-type: none;
-    text-align: left;
-    padding-left: 6px;
-  
-  }
-
-
   #dataShow{
     width: 300px;
   }
