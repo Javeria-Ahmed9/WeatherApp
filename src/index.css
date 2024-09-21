@@ -3,12 +3,12 @@
   width: 250px;
   border: 1px solid black;
   margin-top: 30px;
-  box-shadow: rgba(48, 48, 212, 0.831) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(225, 50, 158, 0.927) 0px 10px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 #list{
   background-color: white;
   width: 248px;
-  margin-top: 2px;
+  margin-top: 3px;
   margin-left: 422px;
   max-height: 100px ;
   overflow-y: auto;
